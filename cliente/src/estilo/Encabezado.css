@@ -1,0 +1,418 @@
+.contenedor {
+	width: 100%;
+
+}
+
+.cabezeraPrincipal {
+	box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.5);
+	border-bottom-left-radius: 400px;
+
+	/**background: white;**/
+	/* background-image: url('../IMG/Coop-8-de-marzo.jpg'); */
+}
+
+.cabecera_nuevo {
+	width: 100%;
+	min-height: 8px;
+	position: relative;
+	overflow: hidden;
+	background: rgba(0, 0, 0);
+	background-image: url('../IMG/opcion4.jpeg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	/* padding: 1rem 2rem 2rem 2rem; */
+	margin: 0px;
+	box-shadow: 4px 4px 0px 0px black;
+	border-bottom-left-radius: 400px;
+	display: flex;
+
+}
+
+.cabezera_img {
+	/* background-color: red; */
+	width: 20%;
+	display: flex;
+	justify-content: left;
+	padding: 0rem 1rem 5rem 6rem;
+}
+
+.divisoria {
+	/* 	background-color: black; */
+	width: 70%;
+	/* font-family: var(--bs-font-sans-serif); */
+	padding: 0rem 0rem 0rem 0rem;
+
+
+}
+
+.Titulo {
+	font-size: 3rem;
+	font-weight: 800;
+	line-height: 1.3;
+	font-family: "Anton", sans-serif;
+	text-shadow: 4px 4px 4px rgba(241, 236, 236, 0.5);
+	/* text-shadow: 2px 2px 5px rgba(235, 231, 231, 0.5);	 */
+	/* text-decoration: underline; */
+
+}
+
+h5 {
+	font-size: 14px;
+}
+
+h4 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 18px;
+}
+
+
+@media (max-width:576px) {
+
+	.Titulo {
+		font-size: 0.1px;
+		font-weight: 300;
+		line-height: 0;
+		text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+	}
+
+
+	.cabecera_nuevo {
+		width: 100%;
+		min-height: 5rem;
+		position: relative;
+		overflow: hidden;
+		/* background-image: url('../IMG/opcion6.jpg'); */
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		padding: 0px;
+		margin: 0px;
+		box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.5);
+		border-bottom-left-radius: 200px;
+		display: flex;
+	}
+
+	/* .imgLogo {
+		margin-top: 2px !important;
+		margin: 0px;
+		width: 200px;
+
+	} */
+
+	.cabezera_img {
+		width: 40%;
+		display: flex;
+		justify-content: left;
+		padding: 0rem 0rem 0rem 0rem;
+	}
+
+	.divisoria {
+		width: 60%;
+		/* font-family: var(--bs-font-sans-serif); */
+		padding: 1rem 1rem 0rem 0rem;
+	}
+	.imgLogo{
+		padding: 1rem 2rem 0rem 2rem;	
+		margin-top: 0px !important;
+		width: 300px;
+		height: 70px;
+		
+	}
+
+	.Titulo {
+		font-size: 1rem;
+		font-weight: 800;
+		line-height: 1;
+		font-family: "Anton", sans-serif;
+		text-shadow: 4px 4px 4px rgba(241, 236, 236, 0.5);
+	}
+
+	h5 {
+		font-size: 9px;
+	}
+
+	h4 {
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 10px;
+	}
+
+}
+
+@media (min-width:577px) and (max-width:768px) {
+	.Titulo {
+		font-size: 0.1px;
+		font-weight: 300;
+		line-height: 0;
+		text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+	}
+
+
+	.cabecera_nuevo {
+		width: 100%;
+		min-height: 5rem;
+		position: relative;
+		overflow: hidden;
+		/* background-image: url('../IMG/opcion6.jpg'); */
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		padding: 0px;
+		margin: 0px;
+		box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.5);
+		border-bottom-left-radius: 200px;
+		display: flex;
+	}
+
+	/* .imgLogo {
+		margin-top: 2px !important;
+		margin: 0px;
+		width: 200px;
+
+	} */
+
+	.cabezera_img {
+		width: 30%;
+		display: flex;
+		justify-content: left;
+		padding: 0rem 0rem 0rem 0rem;
+	}
+
+	.divisoria {
+		width: 70%;
+		/* font-family: var(--bs-font-sans-serif); */
+		padding: 1rem 1rem 0rem 1.5rem;
+	}
+	.imgLogo{
+		padding: 1rem 2rem 0rem 2rem;	
+		margin-top: 0px !important;
+		width: 270px;
+		height: 65px;
+		
+	}
+
+	.Titulo {
+		font-size: 1.5rem;
+		font-weight: 800;
+		line-height: 1;
+		font-family: "Anton", sans-serif;
+		text-shadow: 4px 4px 4px rgba(241, 236, 236, 0.5);
+	}
+
+	h5 {
+		font-size: 11px;
+	}
+
+	h4 {
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 12px;
+	}
+
+}
+@media (min-width:769px) and (max-width:992px) {
+	.Titulo {
+		font-size: 0.1px;
+		font-weight: 300;
+		line-height: 0;
+		text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+	}
+
+
+	.cabecera_nuevo {
+		width: 100%;
+		min-height: 7rem;
+		position: relative;
+		overflow: hidden;
+		/* background-image: url('../IMG/opcion6.jpg'); */
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		padding: 0px;
+		margin: 0px;
+		box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.5);
+		border-bottom-left-radius: 200px;
+		display: flex;
+	}
+
+	/* .imgLogo {
+		margin-top: 2px !important;
+		margin: 0px;
+		width: 200px;
+
+	} */
+
+	.cabezera_img {
+		width: 40%;
+		display: flex;
+		justify-content: right;
+		padding: 0rem 0rem 0rem 0rem;
+	}
+
+	.divisoria {
+		width: 60%;
+		/* font-family: var(--bs-font-sans-serif); */
+		padding: 1rem 1rem 0rem 0rem;
+	}
+	.imgLogo{
+		padding: 1rem 2rem 0rem 2rem;	
+		margin-top: 0px !important;
+		width: 300px;
+		height: 70px;
+		
+	}
+
+	.Titulo {
+		font-size: 1.5rem;
+		font-weight: 800;
+		line-height: 1;
+		font-family: "Anton", sans-serif;
+		text-shadow: 4px 4px 4px rgba(241, 236, 236, 0.5);
+	}
+
+	h5 {
+		font-size: 11px;
+	}
+
+	h4 {
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 12px;
+	}
+
+}
+
+@media (min-width:993px) and (max-width:1200px) {
+	.Titulo {
+		font-size: 0.1px;
+		font-weight: 300;
+		line-height: 0;
+		text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+	}
+
+
+	.cabecera_nuevo {
+		width: 100%;
+		min-height: 7rem;
+		position: relative;
+		overflow: hidden;
+		/* background-image: url('../IMG/opcion6.jpg'); */
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		padding: 0px;
+		margin: 0px;
+		box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.5);
+		border-bottom-left-radius: 200px;
+		display: flex;
+	}
+
+	/* .imgLogo {
+		margin-top: 2px !important;
+		margin: 0px;
+		width: 200px;
+
+	} */
+
+	.cabezera_img {
+		width: 40%;
+		display: flex;
+		justify-content: center;
+		padding: 1rem 0rem 0rem 2rem;
+	}
+
+	.divisoria {
+		width: 60%;
+		/* font-family: var(--bs-font-sans-serif); */
+		padding: 1rem 2rem 0rem 0rem;
+	}
+	.imgLogo{
+		padding: 0rem 0rem 0rem 0rem;	
+		margin-top: 0px !important;
+		width: 300px;
+		height: 70px;
+		
+	}
+
+	.Titulo {
+		font-size: 2.5rem;
+		font-weight: 800;
+		line-height: 1;
+		font-family: "Anton", sans-serif;
+		text-shadow: 4px 4px 4px rgba(241, 236, 236, 0.5);
+	}
+
+	h5 {
+		font-size: 14px;
+	}
+
+	h4 {
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 16px;
+	}
+
+}
+
+@media (min-width:1201px) and (max-width:1650px) {
+
+	.Titulo {
+		font-size: 0.1px;
+		font-weight: 300;
+		line-height: 0;
+		text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+	}
+
+
+	.cabecera_nuevo {
+		width: 100%;
+		min-height: 7rem;
+		position: relative;
+		overflow: hidden;
+		/* background-image: url('../IMG/opcion6.jpg'); */
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		padding: 0px;
+		margin: 0px;
+		box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.5);
+		border-bottom-left-radius: 200px;
+		display: flex;
+	}
+
+	/* .imgLogo {
+		margin-top: 2px !important;
+		margin: 0px;
+		width: 200px;
+
+	} */
+
+	.cabezera_img {
+		width: 40%;
+		display: flex;
+		justify-content: left;
+		padding: 0rem 1em 5rem 6rem;
+	}
+
+	.divisoria {
+		width: 60%;
+		/* font-family: var(--bs-font-sans-serif); */
+		padding: 1rem 1rem 0rem 0rem;
+	}
+	.imgLogo{
+		padding: 1rem 2rem 0rem 2rem;	
+		margin-top: 0px !important;
+		/* width: 400px;
+		height:100px; */
+		
+	}
+
+	.Titulo {
+		font-size: 3rem;
+		font-weight: 800;
+		line-height: 1;
+		font-family: "Anton", sans-serif;
+		text-shadow: 4px 4px 4px rgba(241, 236, 236, 0.5);
+	}
+
+	h5 {
+		font-size: 14px;
+	}
+
+	h4 {
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 18px;
+	}
+
+}
