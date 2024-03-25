@@ -64,7 +64,7 @@
       console.log('Llegué aquí antes de la petición Axios');
 
       // Enviar los datos al servidor usando Axios
-      axios.post(`http://localhost:8000/api/excedente/${inputData1}/${inputData2}/${inputData3}/${inputData4}`, { clave: inputData4 })
+      axios.post(`http://www.8demarzo.coop.py:8000/api/excedente/${inputData1}/${inputData2}/${inputData3}/${inputData4}`, { clave: inputData4 })
     .then((response) => {
       console.log('Respuesta del servidor:', response.data);
       const usuarios = Array.isArray(response.data.usuario) ? response.data.usuario : [response.data.usuario];
@@ -99,8 +99,8 @@
     <div className='d-flex justify-content-center cajaSeparacionCajas '>
       <div className="caja_izquierda">
         <div className="texto_caja_izquierda ">
-          <h1 className="titulo2 mb-3 font-weight-normal text-white">Excedentes 2023</h1>
-          <p className="text-white">Descubre tus excedentes del año 2023 aquí. Te invitamos a consultar y gestionar tus excedentes de manera sencilla y eficiente. ¡Explora tus beneficios ahora!</p>
+          <h1 className="titulo2 mb-3 font-weight-normal text-white">DATOS</h1>
+          <p className="text-white">FORMULARIO 2024</p>
         </div>
         <div className='d-flex justify-content-center cajaFromulario'>
           <form className="form-signin datos" onSubmit={ingresar}>
