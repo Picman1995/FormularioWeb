@@ -16,8 +16,8 @@
 	min-height: 8px;
 	position: relative;
 	overflow: hidden;
-	background: rgba(0, 0, 0);
-	background-image: url('../IMG/opcion4.jpeg');
+	background: rgb(180, 218, 132);
+	/*background-image: url('../IMG/opcion4.jpeg');*/
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	/* padding: 1rem 2rem 2rem 2rem; */
@@ -38,7 +38,7 @@
 
 .divisoria {
 	/* 	background-color: black; */
-	width: 70%;
+	width: 100%;
 	/* font-family: var(--bs-font-sans-serif); */
 	padding: 0rem 0rem 0rem 0rem;
 
