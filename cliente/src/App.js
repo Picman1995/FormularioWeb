@@ -6,6 +6,7 @@ import Encabezado from './componente/Encabezado';
 import Principal from './componente/Principal';
 import Footer from './componente/Footer';
 
+
 function App() {
   return (
     <div className="App">
